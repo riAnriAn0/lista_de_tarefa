@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 :root{
     --cor-azul:#1059C6;
@@ -17,18 +18,19 @@ body{
 header{
     background-color: var(--cor-cinza-claro);
     color: #ffffff;
-    height: 20pt;
+    height: 25pt;
     padding: 5pt;
     display: flex;
     justify-content: space-between;
 }
-header >i {
+header > i {
     padding: 5pt;
-    margin: 0pt 5pt;
     margin: 0pt 10pt;
 }
 main{
-    margin: 10pt;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 10pt;
 }
 #cxNota{
     background-color: var(--cor-cinza-claro);
@@ -49,7 +51,7 @@ main{
 }
 #editarNota > i {
     padding: 5pt;
-    margin: 0pt 5pt;
+    margin: 0pt 10pt;
 }
 i:hover{
     background-color: #181C21;
