@@ -18,12 +18,12 @@ body{
 header{
     background-color: var(--cor-cinza-claro);
     color: #ffffff;
-    height: 25pt;
+    height: 30pt;
     padding: 5pt;
     display: flex;
     justify-content: space-between;
 }
-header > i {
+i {
     padding: 5pt;
     margin: 0pt 10pt;
 }
@@ -48,10 +48,6 @@ main{
 #editarNota{
     padding: 3pt;
     text-align: center;   
-}
-#editarNota > i {
-    padding: 5pt;
-    margin: 0pt 10pt;
 }
 i:hover{
     background-color: #181C21;
