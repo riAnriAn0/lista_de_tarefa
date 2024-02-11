@@ -7,6 +7,7 @@
 }
 :root{
     --cor-azul:#1059C6;
+    --cor-azul-claro:#5aa6ff;
     --cor-cinza:#181C21;
     --cor-cinza-claro:#383C40;   
 }
@@ -18,17 +19,20 @@ body{
 header{
     background-color: var(--cor-cinza-claro);
     color: #ffffff;
-    height: 30pt;
+    height: 40pt;
     padding: 5pt;
     display: flex;
     justify-content: space-between;
 }
 i {
-    padding: 5pt;
+    background-color: var(--cor-azul);
+    padding: 10pt;
+    border-radius: 5pt;
     margin: 0pt 10pt;
 }
 main{
     max-width: 700px;
+    width: 90%;
     margin: auto;
     margin-top: 10pt;
 }
@@ -41,15 +45,23 @@ main{
     display: flex;
     flex-direction: column;
 }
+#areaNota{
+    height: 30pt;
+    width: 90%;
+    border-radius: 5pt;
+    padding: 5pt;
+}
 #nota{
     padding: 5pt;
     flex-wrap: wrap;                                     
+    margin-bottom: 5pt;
 }
 #editarNota{
     padding: 3pt;
     text-align: center;   
 }
 i:hover{
-    background-color: #181C21;
+    background-color: var(--cor-azul-claro);
     border-radius: 5pt;
+
 }
