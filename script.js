@@ -22,5 +22,6 @@ function apagarNota(){
    console.log('botao3 clicado')
    areaNota.setAttribute('id','areaNota')
    areaNota.value = ''
+   notasalva.textContent =''
    notasalva.setAttribute('id','notasalva2')
 }
