@@ -3,7 +3,14 @@ let notasalva = document.getElementById('notasalva')
 let  salvar = document.getElementById('marcar')
 let  apagar = document.getElementById('apagar')
 let  editar = document.getElementById('editar')
+let  novaNota = document.getElementById('novaNota')
 
+function criarNovanota(){
+   let nota = document.getElementById('cxPrincipal')
+   let novoElemento = document.createElement('div')
+   novoElemento.innerHTML = nota.innerHTML
+   window.document.body.appendChild(novoElemento)
+}
 function salvarNota(){
    console.log('botao clicado')
     if(areaNota.value != ''){

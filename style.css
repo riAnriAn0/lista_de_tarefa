@@ -30,7 +30,7 @@ header >h1 {
 header > i {
     background-color: var(--cor-azul);
     padding: 10pt;
-    border-radius: 5pt;
+    border-radius: 50pt;
     margin: 10pt;
 }
 main{
@@ -42,7 +42,7 @@ main{
 #cxNota{
     background-color: var(--cor-cinza-claro);
     color: #ffffff; 
-    border-radius: 5pt;
+    border-radius: 10pt;
     padding: 10pt;
     font-size: 0.8em;
     display: flex;
@@ -78,14 +78,11 @@ main{
     white-space: pre-line;
     height: 100%;
     font-size: 15pt;
-   
-
- 
 }
 div > i {
     background-color: var(--cor-azul);
     padding: 10pt;
-    border-radius: 5pt;
+    border-radius: 50pt;
     margin: 2.5pt 10pt;
 }
 i:hover{
