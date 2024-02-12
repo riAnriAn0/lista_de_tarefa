@@ -1,3 +1,4 @@
+
 let areaNota = document.getElementById('areaNota')
 let notasalva = document.getElementById('notasalva')
 let  salvar = document.getElementById('marcar')
