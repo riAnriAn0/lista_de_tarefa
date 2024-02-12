@@ -55,15 +55,30 @@ main{
     flex-wrap: wrap;                                     
     margin-bottom: 5pt;
 }
+#areaNota2{
+   display: none;
+}
 #areaNota{
     height: 30pt;
     width: 90%;
+    border: none;
     border-radius: 5pt;
     padding: 5pt;
+    text-decoration: none;
+    outline: none;
 }
 #editarNota{
     width: 40pt;
     text-align: center;   
+}
+#notasalva2{
+    display: none;
+}
+#notasalva{
+    white-space: pre-line;
+    height: 100%;
+
+ 
 }
 div > i {
     background-color: var(--cor-azul);
