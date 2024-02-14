@@ -10,25 +10,27 @@
 </head>
 <body >
     <header>
-        <h1>
+        <h2>
             note. <i class="fa-solid fa-pen"></i>
-        </h1>
-        <i  id="novaNota" class="fa-solid fa-plus" onclick="criarNovanota()"></i>
+        </h2>
     </header>
-    <main id="main">
-        <div id="cxPrincipal">
-            <div id="cxNota">
-                <div id="nota">
-                   <input id="areaNota" type="text" placeholder="Nota">
-                   <p id="notasalva"></p>
-                </div>
-                <div id="editarNota">
-                    <i id="marcar"  onclick="salvarNota()" class="fa-solid fa-check"></i>
-                    <i  id="apagar" onclick="apagarNota()" class="fa-solid fa-trash"></i>
-                    <i id="editar" onclick="editarNota()" class="fa-solid fa-pen"></i>
-                </div>
-            </div>
-        </div>           
+    <main>
+        <div id="areadeEntrada">
+            <input id="cxEntrada" type="text" placeholder="Nota">
+            <button><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="areadeSaida">
+            <p class="cxSaida">conteudo da notas</p>
+            <button>
+                <i class="fa-solid fa-pen"></i>
+            </button>
+            <button>
+                <i class="fa-solid fa-check"></i>
+            </button>
+            <button>
+                <i class="fa-solid fa-trash"></i>
+            </button>
+        </div> 
     </main>
     <script src="script.js"></script>
 </body>

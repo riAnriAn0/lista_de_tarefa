@@ -1,92 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Open+Sans:wght@300;400;600&family=Roboto:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
-}
 :root{
     --cor-azul:#1059C6;
     --cor-azul-claro:#5aa6ff;
     --cor-cinza:#181C21;
     --cor-cinza-claro:#383C40;   
 }
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
 body{
     background-color: var(--cor-cinza);
-    height: 100vh;
-    width: 100vw;
 }
 header{
     background-color: var(--cor-cinza-claro);
-    color: #ffffff;
-    height: 60pt;
-    padding: 5pt;
-    display: flex;
-    justify-content: space-between;
+    width:100% ;
+    height: 90px;
+    color: white;
+    padding: 20px;
 }
-header >h1 {
-    font-weight: lighter;
-}
-header > i {
-    background-color: var(--cor-azul);
-    padding: 10pt;
-    border-radius: 50pt;
-    margin: 10pt;
+h2{
+    border-bottom: solid 2px var(--cor-azul);
 }
 main{
-    max-width: 700px;
-    width: 90%;
-    margin: auto;
-    margin-top: 10pt;
-}
-#cxNota{
     background-color: var(--cor-cinza-claro);
-    color: #ffffff; 
-    border-radius: 10pt;
-    padding: 10pt;
-    font-size: 0.8em;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10pt;   
+    margin: auto;
+    margin-top: 10px;
+    max-width: 700px;
+    height: 100vh;
+    border-radius: 5px;
 }
-#nota{
-    width: 80%;
-    padding: 5pt;
-    flex-wrap: wrap;                                     
-    margin-bottom: 5pt;
-}
-#areaNota2{
-   display: none;
-}
-#areaNota{
-    height: 30pt;
-    width: 90%;
-    border: none;
-    border-radius: 5pt;
-    padding: 5pt;
-    text-decoration: none;
-    outline: none;
-}
-#editarNota{
-    width: 40pt;
-    text-align: center;   
-}
-#notasalva2{
-    display: none;
-}
-#notasalva{
-    white-space: pre-line;
-    height: 100%;
-    font-size: 15pt;
-}
-div > i {
-    background-color: var(--cor-azul);
-    padding: 10pt;
-    border-radius: 50pt;
-    margin: 2.5pt 10pt;
-}
-i:hover{
-    background-color: var(--cor-azul-claro);
-    border-radius: 5pt;
+#areadeEntrada{
+    background-color: var(--cor-cinza);
 
 }
