@@ -31,16 +31,17 @@ main{
     margin: auto;
     margin-top: 10px;
     max-width: 600px;
-    padding: 5px;
+    padding: 15px;
     height: 100vh;
     border-radius: 5px;
 }
 #areadeEntrada{
     background-color: var(--cor-cinza);
-    padding: 8px;
+    padding: 10px 10px;
     width: 100%;
-    height: 50px;
-    border-radius: 5px;
+    height: 65px;
+    margin-bottom: 10px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between
 }
@@ -48,14 +49,35 @@ main{
     width: 80%;
     outline: none;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 5px;
 }
 button{
+    font-size: 15px;
     border-radius: 50px;
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     padding: 5px;
     background-color: var(--cor-azul);
     color: white;
+}
+.areadeSaida{
+    background-color: var(--cor-cinza);
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+}
+.cxSaida {
+    padding: 8px;
+    font-size: 1em;
+    text-align: justify;
+}
+.cxSaidaMarcada {
+    padding: 8px;
+    font-size: 1em;
+    text-align: justify;
+    text-decoration: line-through;
+}
+.areadeSaida > button {
+    margin: 10px 20px;
 }
