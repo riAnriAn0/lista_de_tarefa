@@ -3,7 +3,9 @@
     --cor-azul:#1059C6;
     --cor-azul-claro:#5aa6ff;
     --cor-cinza:#181C21;
-    --cor-cinza-claro:#383C40;   
+    --cor-cinza-claro:#383C40; 
+    --cor-branco-escuro:#d5d5d5;
+    --cor-branco:#ffffff;
 }
 *{
     font-family: 'Open Sans', sans-serif;
