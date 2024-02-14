@@ -61,9 +61,21 @@ button{
     background-color: var(--cor-azul);
     color: white;
 }
+i{
+    pointer-events: none;
+}
+.areadeSaidaMarcada{
+    background-color: var(--cor-cinza);
+    padding: 8px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: line-through;
+}
 .areadeSaida{
     background-color: var(--cor-cinza);
     padding: 8px;
+    margin-bottom: 10px;
     color: white;
     border-radius: 5px;
 }
@@ -71,12 +83,6 @@ button{
     padding: 8px;
     font-size: 1em;
     text-align: justify;
-}
-.cxSaidaMarcada {
-    padding: 8px;
-    font-size: 1em;
-    text-align: justify;
-    text-decoration: line-through;
 }
 .areadeSaida > button {
     margin: 10px 20px;
