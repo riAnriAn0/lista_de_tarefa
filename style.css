@@ -74,6 +74,13 @@ i{
     color: white;
     border-radius: 5px;
     text-decoration: line-through;
+
+    & .cxSaida {
+        padding: 8px;
+        font-size: 1em;
+        text-align: justify;
+        opacity: 0.5;
+    }
 }
 .areadeSaida{
     background-color: var(--cor-cinza);
