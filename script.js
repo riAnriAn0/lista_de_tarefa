@@ -5,35 +5,37 @@ let maracar = document.querySelector('.marcar')
 let apagar = document.querySelector('.apagar')
 
 //   btns = document.querySelectorAll()
+
 let areadeSaida = document.querySelector('.areadeSaida')
 let cxSaida = document.querySelector('.cxSaida')
 
 criarNota.addEventListener('click',() =>{
     let novaNota = cxEntrada.value
 
-    let novaAreadeSaida = document.createElement('div')
-    novaAreadeSaida.classList.add('areadeSaida')
-    
-    let novacxSaida = document.createElement('p')
-    novacxSaida.classList.add('cxSaida')
-    novacxSaida.textContent = novaNota
-    novaAreadeSaida.appendChild(novacxSaida)
+    if (cxEntrada.value != ''){
 
-    let novoBtnMarcar = document.createElement('button')
-    novoBtnMarcar.classList.add('marcar')
-    novoBtnMarcar.innerHTML = ('<i class="fa-solid fa-check"></i>')
-    novaAreadeSaida.appendChild(novoBtnMarcar)
-    
-    let novoBtnApagar = document.createElement('button')
-    novoBtnApagar.classList.add('apagar')
-    novoBtnApagar.innerHTML = ('<i class="fa-solid fa-trash"></i>')
-    novaAreadeSaida.appendChild(novoBtnApagar)
+        let novaAreadeSaida = document.createElement('div')
+        novaAreadeSaida.classList.add('areadeSaida')
+        
+        let novacxSaida = document.createElement('p')
+        novacxSaida.classList.add('cxSaida')
+        novacxSaida.textContent = novaNota
+        novaAreadeSaida.appendChild(novacxSaida)
 
- 
-    main.appendChild(novaAreadeSaida)
-    
-    cxEntrada.value = ''
+        let novoBtnMarcar = document.createElement('button')
+        novoBtnMarcar.classList.add('marcar')
+        novoBtnMarcar.innerHTML = ('<i class="fa-solid fa-check"></i>')
+        novaAreadeSaida.appendChild(novoBtnMarcar)
+        
+        let novoBtnApagar = document.createElement('button')
+        novoBtnApagar.classList.add('apagar')
+        novoBtnApagar.innerHTML = ('<i class="fa-solid fa-trash"></i>')
+        novaAreadeSaida.appendChild(novoBtnApagar)
 
+        main.appendChild(novaAreadeSaida)
+        
+        cxEntrada.value = ''
+    }
 })
 
 main.addEventListener('click',(e)=>{
@@ -41,11 +43,12 @@ main.addEventListener('click',(e)=>{
     const divPai = btnclicado.closest('div');
 
     if(btnclicado.classList == ('marcar')){
-
-        console.log('marcado')
         divPai.classList.toggle('areadeSaidaMarcada');
 
+    } else if(btnclicado.classList == ('apagar')){
+        divPai.remove();
     }
 })
+
 
 
