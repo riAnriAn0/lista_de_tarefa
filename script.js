@@ -33,6 +33,7 @@ criarNota.addEventListener('click',() =>{
         main.appendChild(novaAreadeSaida)
         
         cxEntrada.value = ''
+    
     }
 })
 

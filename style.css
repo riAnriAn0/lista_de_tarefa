@@ -79,7 +79,7 @@ i{
     padding: 8px;
     margin-bottom: 10px;
     color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     text-decoration: line-through;
 
     & .cxSaida {
@@ -94,7 +94,7 @@ i{
     padding: 8px;
     margin-bottom: 10px;
     color: white;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .cxSaida {
     padding: 8px;
