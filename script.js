@@ -1,11 +1,9 @@
-let cxEntrada = document.querySelector('#cxEntrada')
+let areadeEntrada = document.getElementById('areadeEntrada')
+let cxEntrada = document.getElementById('cxEntrada')
 let criarNota = document.querySelector('.criarNota')
 let main =document.querySelector('main')
 let maracar = document.querySelector('.marcar')
 let apagar = document.querySelector('.apagar')
-
-//   btns = document.querySelectorAll()
-
 let areadeSaida = document.querySelector('.areadeSaida')
 let cxSaida = document.querySelector('.cxSaida')
 
@@ -49,6 +47,3 @@ main.addEventListener('click',(e)=>{
         divPai.remove();
     }
 })
-
-
-
