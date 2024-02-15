@@ -1,4 +1,3 @@
-let areadeEntrada = document.getElementById('areadeEntrada')
 let cxEntrada = document.getElementById('cxEntrada')
 let criarNota = document.querySelector('.criarNota')
 let main =document.querySelector('main')
