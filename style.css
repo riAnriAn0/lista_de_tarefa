@@ -41,6 +41,7 @@ main{
     border-radius: 5px;
 }
 #areadeEntrada{
+    background-attachment: fixed;
     background-color: var(--cor-cinza);
     padding: 20px;
     width: 100%;
@@ -57,7 +58,7 @@ main{
     outline: none;
     text-decoration: none;
     border: none;
-    border-radius: ;
+    border-radius:15px;
     padding: 15px;
 }
 button{
