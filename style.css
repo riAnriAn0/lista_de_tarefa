@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Open+Sans:wght@300;400;600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --cor-azul:#1059C6;
     --cor-azul-claro:#5aa6ff;
     --cor-cinza:#181C21;
     --cor-cinza-claro:#383C40; 
-    --cor-branco-escuro:#d5d5d5;
-    --cor-branco:#ffffff;
+    --cor-branco-escuro:#f0f0f0;
+    --cor-branco:#fafafa;
 }
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat','Open Sans', sans-serif;
     box-sizing: border-box;
     margin:0;
     padding: 0;
 }
 body{
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-branco-escuro);
     height: 100vh;
 }
 header{
-    background-color: var(--cor-cinza-claro);
+    background-color: var(--cor-branco);
     width:100% ;
     height: 90px;
     color: white;
@@ -28,11 +30,12 @@ header{
 }
 h2{
     border-bottom: solid 2px var(--cor-azul);
-    font-weight: lighter;
+    font-weight: normal;
     margin: 0px 15px;
+    color: black;
 }
 main{
-    background-color: var(--cor-cinza-claro);
+    background-color: var(--cor-branco);
     margin: auto;
     margin-top: 10px;
     max-width: 600px;
@@ -42,7 +45,7 @@ main{
 }
 #areadeEntrada{
     background-attachment: fixed;
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-branco-escuro);
     padding: 20px;
     width: 100%;
     height: 90px;
@@ -60,6 +63,7 @@ main{
     border: none;
     border-radius:15px;
     padding: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.218);
 }
 button{
     font-size: 15px;
@@ -76,7 +80,7 @@ i{
     pointer-events: none;
 }
 .areadeSaidaMarcada{
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-branco-escuro);
     padding: 8px;
     margin-bottom: 10px;
     color: white;
@@ -91,7 +95,7 @@ i{
     }
 }
 .areadeSaida{
-    background-color: var(--cor-cinza);
+    background-color: var(--cor-branco-escuro);
     padding: 8px;
     margin-bottom: 10px;
     color: white;
@@ -101,6 +105,7 @@ i{
     padding: 8px;
     font-size: 1em;
     text-align: justify;
+    color: black;
 }
 .areadeSaida > button {
     margin: 10px 20px;
