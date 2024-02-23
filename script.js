@@ -47,3 +47,13 @@ main.addEventListener('click',(e)=>{
         divPai.remove();
     }
 })
+
+let nightMode = document.querySelector('#nightMode')
+
+nightMode.addEventListener('click',() => {
+    console.log('apertado')
+    document.body.classList.toggle('modoEscuro')
+     
+})
+
+
